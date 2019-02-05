@@ -102,7 +102,7 @@ const init = async () => {
 
 init();
 
-client.login(process.env.NTQxOTUxNTQ4NDk0ODM5ODA4.DzuiFA.TOHhfzYp4GcsuxzEU2fveMFNzPU);
+client.login(process.env.token);
 process.on('uhandledRejection', (e) => {
   console.log(e.stack)
 });
